@@ -1,20 +1,14 @@
 # Use the official Node.js image as a base
-FROM node:14-alpine
+FROM node:21-alpine3.19
 
 # Set the working directory
 WORKDIR /app
 
 # Copy package.json and package-lock.json to install dependencies
-COPY package*.json ./
+COPY ./Mosahem .
 
 # Install dependencies
 RUN npm install
 
-# Copy the entire app to the container
-COPY . .
-
-# Expose the port your app
-EXPOSE 3000
-
 # Start the React Native app
-CMD ["npm", "start"]
+CMD ["npx", "expo", "start"]
