@@ -58,7 +58,7 @@ const $container: ViewStyle = {
   flexDirection: 'column',
   alignItems: 'center',
   backgroundColor: "#F5F5F5",
-  width: '90%',
+  width: '100%',
   zIndex: 1,
   borderRadius: 10,
   justifyContent: 'center',

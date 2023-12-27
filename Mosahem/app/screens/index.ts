@@ -9,3 +9,4 @@ export * from "./ErrorScreen/ErrorBoundary"
 // export other screens here
 export * from "./TicketSubmessionScreen"
 export * from "./MapScreen"
+export * from "./ThankyouScreen"
