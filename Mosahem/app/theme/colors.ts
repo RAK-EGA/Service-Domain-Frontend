@@ -2,21 +2,26 @@
 
 const palette = {
   neutral100: "#FFFFFF",
-  neutral200: "#F4F2F1",
-  neutral300: "#D7CEC9",
-  neutral400: "#B6ACA6",
-  neutral500: "#978F8A",
-  neutral600: "#564E4A",
-  neutral700: "#3C3836",
-  neutral800: "#191015",
-  neutral900: "#000000",
+  neutral200: "#dedede",
+  neutral300: "#bebebe",
+  neutral400: "#9e9e9e",
+  neutral500: "#808080",
+  neutral600: "#636363",
+  neutral700: "#484848",
+  neutral800: "#2e2e2e",
+  neutral900: "#161616",
+  neutral: "#030303",
 
-  primary100: "#F4E0D9",
-  primary200: "#E8C1B4",
-  primary300: "#DDA28E",
-  primary400: "#D28468",
-  primary500: "#C76542",
-  primary600: "#A54F31",
+  primary: "#907a55",
+  primary100: "#c6bba8",
+  primary200: "#bbad97",
+  primary300: "#b0a086",
+  primary400: "#a59376",
+  primary500: "#9b8765",
+  primary600: "#907a55",
+  primary700: "#7d6949",
+  primary800: "#6a593d",
+  primary900: "#6a593d",
 
   secondary100: "#DCDDE9",
   secondary200: "#BCC0D6",
@@ -51,7 +56,7 @@ export const colors = {
   /**
    * The default text color in many components.
    */
-  text: palette.neutral800,
+  text: palette.neutral900,
   /**
    * Secondary text information.
    */
@@ -59,7 +64,10 @@ export const colors = {
   /**
    * The default color of the screen background.
    */
-  background: palette.neutral200,
+  primary: "#907A55",
+  background: "#F7F8FA",
+  secondary: "#757171",
+  
   /**
    * The default border color.
    */

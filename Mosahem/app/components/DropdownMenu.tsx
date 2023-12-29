@@ -54,16 +54,14 @@ export const DropdownMenu: FC<DropdownMenuProps> = observer(function DropdownMen
 });
 
 const $container: ViewStyle = {
-  margin: 10,
+  marginTop: 20,
   flexDirection: 'column',
   alignItems: 'center',
   backgroundColor: "#F5F5F5",
-  width: '100%',
   zIndex: 1,
   borderRadius: 10,
   justifyContent: 'center',
   padding: 10,
-  marginBottom: 20,
 };
 
 const $buttonContainer: ViewStyle = {
